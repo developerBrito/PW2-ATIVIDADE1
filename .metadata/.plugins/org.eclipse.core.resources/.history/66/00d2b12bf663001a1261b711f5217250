@@ -1,0 +1,30 @@
+
+public class ExercicioDois {
+	
+	public static void main(String[] args) {
+		
+		boolean dias = possoIrBanco("domingo",10);
+		//int horario = possoIrBanco(10);
+		
+		System.out.println("O banco está aberto:"+ " " + dias);
+		
+		
+	}
+	
+	public static boolean possoIrBanco(String dias, int horario) {
+		
+		
+		if(dias == "domingo" || dias == "sábado" && horario >= 10) {
+			
+			return false;
+		}
+		
+		else {
+			
+			return true;
+		}
+		
+		
+	}
+
+}
