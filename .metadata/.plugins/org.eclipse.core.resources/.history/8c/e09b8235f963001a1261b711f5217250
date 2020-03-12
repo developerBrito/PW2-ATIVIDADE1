@@ -3,10 +3,10 @@ public class ExercicioDois {
 	
 	public static void main(String[] args) {
 		
-		boolean dias = possoIrBanco("segunda-feira",10);
+		boolean dias = possoIrBanco("segunda-feira",17);
 		
 		
-		System.out.println("O banco está aberto:" + " " + dias);
+		System.out.println("O banco está aberto:"+ " " + dias);
 		
 		
 	}

@@ -2,7 +2,7 @@
 public class ExercicioUm {
 
 	public static void main(String[] args) {
-		
+
 		boolean finalDeSemana = ehDiaSemana("domingo");
 		System.out.println("É dia da semana:" +" "+ finalDeSemana);
 	}
@@ -19,6 +19,5 @@ public class ExercicioUm {
 		}
 
 	}
-	
 
 }

@@ -3,10 +3,10 @@ public class ExercicioDois {
 	
 	public static void main(String[] args) {
 		
-		boolean dias = possoIrBanco("segunda-feira",10);
+		boolean dias = possoIrBanco("segunda-feira",16);
 		
 		
-		System.out.println("O banco está aberto:" + " " + dias);
+		System.out.println("O banco está aberto:"+ " " + dias);
 		
 		
 	}
@@ -14,7 +14,7 @@ public class ExercicioDois {
 	public static boolean possoIrBanco(String dias, int horario) {
 		
 		
-		if(ExercicioUm.ehDiaSemana(dias) && horario >= 10 && horario <= 16) {
+		if(dias == "domingo" && dias != "sábado" && horario >= 10 && horario <= 16) {
 			
 			return true;
 		}
